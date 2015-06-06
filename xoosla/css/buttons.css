@@ -1,0 +1,95 @@
+/* proSilver Button Styles
+---------------------------------------- */
+
+.buttons {
+	float: left;
+	width: auto;
+	height: auto;
+}
+
+/* Rollover state */
+.buttons div {
+	float: left;
+	margin: 0 5px 0 0;
+	background-position: 0 100%;
+}
+
+/* Rolloff state */
+.buttons div a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-position: 0 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.buttons div span			{ position: absolute; width: 100%; height: 100%; cursor: pointer;}
+.buttons div a:hover span	{ background-position: 0 100%; }
+
+/* Sub-header (navigation bar)
+--------------------------------------------- */
+a.print, a.sendemail, a.fontsize {
+	display: block;
+	overflow: hidden;
+	height: 18px;
+	text-indent: -5000px;
+	text-align: left;
+	background-repeat: no-repeat;
+}
+
+a.print {
+	background-image: none;
+	width: 22px;
+}
+
+a.sendemail {
+	background-image: none;
+	width: 22px;
+}
+
+a.fontsize {
+	background-image: none;
+	background-position: 0 -1px;
+	width: 29px;
+}
+
+a.fontsize:hover {
+	background-position: 0 -20px;
+	text-decoration: none;
+}
+
+/* Icon images
+---------------------------------------- */
+.sitehome, .icon-faq, .icon-members, .icon-home, .icon-ucp, .icon-register, .icon-logout,
+.icon-bookmark, .icon-bump, .icon-subscribe, .icon-unsubscribe, .icon-pages, .icon-search {
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	background-image: none;
+	padding: 1px 0 0 17px;
+}
+
+/* Poster profile icons
+----------------------------------------*/
+ul.profile-icons {
+	padding-top: 10px;
+	list-style: none;
+}
+
+/* Rollover state */
+ul.profile-icons li {
+	float: left;
+	margin: 0 6px 3px 0;
+	background-position: 0 100%;
+}
+
+/* Rolloff state */
+ul.profile-icons li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-position: 0 0;
+}
+
+
+

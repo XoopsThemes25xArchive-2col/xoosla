@@ -1,0 +1,46 @@
+/* --------- Stylesheets incorporation --------- */
+@import url("blocks.css");
+@import url("pages.css");
+@import url("common.css");
+@import url("links.css");
+@import url("content.css");
+@import url("buttons.css");
+@import url("forms.css");
+@import url("tweaks.css");
+@import url("colours.css");
+
+/* --------- Block main menu --------- */
+#mainmenu {}
+#mainmenu a {
+  display : block;
+  margin : 0;
+  padding : 3px;
+  border-bottom : 1px dotted #e0e0e0;
+}
+#mainmenu a:hover {
+  background-color : #9FAEC2;
+  color : #fff;
+}
+#mainmenu a.menuTop {padding-left : 3px;}
+#mainmenu a.menuMain {padding-left : 3px;}
+#mainmenu a.menuSub {  
+  background-color : #fff;
+  padding-left : 12px;
+  font-style : italic;
+}
+#mainmenu a.menuSub:hover {
+  background-color : #105289;
+  color : #fff;
+}
+
+/* --------- Block user menu --------- */
+#usermenu {}
+#usermenu a {
+  display : block;
+  margin : 0;
+  padding : 2px 2px 2px 4px;
+  border-bottom : 1px dotted #e0e0e0;
+}
+#usermenu a:hover {background-color : #fff;}
+#usermenu a.menuTop {}
+#usermenu a.highlight {background-color : #9FAEC2;}

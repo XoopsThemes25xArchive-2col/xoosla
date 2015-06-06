@@ -1,0 +1,10 @@
+      <div id="xo-breadcrumb">
+  		  <a href="<{$xoops_url}>/"><{$smarty.const._THEME_HOME}></a>
+		    <{foreach from=$xoops_breadcrumbs item="item"}> »
+			    <{if $item.url}>
+			    <a href="<{$item.url}>"><{$item.name}></a>
+			    <{else}>
+			      <{$item.name}>
+			    <{/if}>
+		    <{/foreach}>
+      </div>
